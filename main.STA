@@ -1,0 +1,63 @@
+
+ROM used:   1968/11264 (17%)
+            1968/11264 (17%) including unused fragments
+
+            1.5 Average locations per line
+            21.4 Average locations per statement
+
+RAM used:   142/2048 (7%) at main() level
+            149/2048 (7%) worst case
+
+Stack used: 12 worst case (12 in main + 0 for interrupts)
+Stack size: 128
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+  162    92 100  main.c
+ 1169     0   0  ..\PICC\Devices\24FV16KM202.h
+----- -----
+ 1331    92 Total
+
+Page ROM  %  RAM    Vol Diff  Functions:
+---- --- --- ---    --- ----  ----------
+0     34   1    3             @GETCH_BIU_1
+0     24   1    1             @I2C_WRITEU_1
+0     42   1    1             @I2C_READU_1
+0     92   2    3    287  5.9  gethex1
+0     44   1    5    171  4.8  gethex
+0      6   0    0     32  1.0  init_ext_eeprom
+0     50   1    1     84  2.4  ext_eeprom_ready
+0     88   2    6    243  4.4  write_ext_eeprom
+0    120   3    6    352  5.9  read_ext_eeprom
+0    652  17   12   1833  9.0  MAIN
+0     22   1    0             @const928
+0     30   1    0             @const929
+0     34   1    0             @const930
+0     36   1    0             @const933
+0     52   1    2             @PRINTF_X_115200_5712_5713
+0     34   1    0             @const937
+0     34   1    0             @const940
+0     34   1    0             @const941
+0     28   1    0             @const943
+ Inline         0             @cinit1
+
+Program metrics:
+    Functions               7
+    Statements              92
+    Comments                266
+    Volume (V)              4115
+    Difficulty (D)          32.4
+    Effort to implement (E) 133251
+    Time to implement (T)   2 hours, 3 minutes
+    Est Delivered Bugs (B)  1
+    Cyclomatic Complexity   14
+    Maintainability (MI)    89
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00002     4  0  
+00004-001FE   508  0  
+00200-02BFE  1456  9296  
+
+
+

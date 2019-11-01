@@ -1,0 +1,48 @@
+ÀÄmain
+   ÀÄMAIN  0/652  Ram=12
+      ÃÄ@cinit1  (Inline)  Ram=0
+      ÃÄ@const928  0/22  Ram=0
+      ÃÄinit_ext_eeprom  0/6  Ram=0
+      ÃÄ@GETCH_BIU_1  0/34  Ram=3
+      ÃÄ@const929  0/30  Ram=0
+      ÃÄ@const930  0/34  Ram=0
+      ÃÄgethex  0/44  Ram=5
+      ³  ÃÄgethex1  0/92  Ram=3
+      ³  ³  ÀÄ@GETCH_BIU_1  0/34  Ram=3
+      ³  ÀÄgethex1  0/92  Ram=3
+      ³     ÀÄ*
+      ÃÄgethex  0/44  Ram=5
+      ³  ÀÄ*
+      ÃÄ@const933  0/36  Ram=0
+      ÃÄ@PRINTF_X_115200_5712_5713  0/52  Ram=2
+      ÃÄread_ext_eeprom  0/120  Ram=6
+      ³  ÃÄext_eeprom_ready  0/50  Ram=1
+      ³  ³  ÀÄ@I2C_WRITEU_1  0/24  Ram=1
+      ³  ÃÄ@I2C_WRITEU_1  0/24  Ram=1
+      ³  ÃÄ@I2C_WRITEU_1  0/24  Ram=1
+      ³  ÃÄ@I2C_WRITEU_1  0/24  Ram=1
+      ³  ÃÄ@I2C_WRITEU_1  0/24  Ram=1
+      ³  ÀÄ@I2C_READU_1  0/42  Ram=1
+      ÃÄ@const937  0/34  Ram=0
+      ÃÄ@PRINTF_X_115200_5712_5713  0/52  Ram=2
+      ÃÄread_ext_eeprom  0/120  Ram=6
+      ³  ÀÄ*
+      ÃÄ@const937  0/34  Ram=0
+      ÃÄ@PRINTF_X_115200_5712_5713  0/52  Ram=2
+      ÃÄ@const940  0/34  Ram=0
+      ÃÄ@PRINTF_X_115200_5712_5713  0/52  Ram=2
+      ÃÄ@const941  0/34  Ram=0
+      ÃÄgethex  0/44  Ram=5
+      ³  ÀÄ*
+      ÃÄwrite_ext_eeprom  0/88  Ram=6
+      ³  ÃÄext_eeprom_ready  0/50  Ram=1
+      ³  ³  ÀÄ*
+      ³  ÃÄ@I2C_WRITEU_1  0/24  Ram=1
+      ³  ÃÄ@I2C_WRITEU_1  0/24  Ram=1
+      ³  ÃÄ@I2C_WRITEU_1  0/24  Ram=1
+      ³  ÀÄ@I2C_WRITEU_1  0/24  Ram=1
+      ÃÄ@const943  0/28  Ram=0
+      ÃÄgethex  0/44  Ram=5
+      ³  ÀÄ*
+      ÀÄwrite_ext_eeprom  0/88  Ram=6
+         ÀÄ*

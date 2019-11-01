@@ -1,0 +1,907 @@
+CCS PCD C Compiler, Version 5.068, 5967               26-Oct-19 16:09
+
+               Filename:   C:\Users\Admin\Desktop\ECE422_Lab7_2\main.lst
+
+               ROM used:   1968 bytes (17%)
+                           Largest free fragment is 9296
+               RAM used:   142 (7%) at main() level
+                           149 (7%) worst case
+               Stack used: 12 locations
+               Stack size: 128
+
+*
+0000:  GOTO    524
+.................... #include <24FV16KM202.h> 
+.................... //////////// Standard Header file for the PIC24FV16KM202 device //////////////// 
+.................... /////////////////////////////////////////////////////////////////////////// 
+.................... ////        (C) Copyright 1996, 2014 Custom Computer Services          //// 
+.................... //// This source code may only be used by licensed users of the CCS C  //// 
+.................... //// compiler.  This source code may only be distributed to other      //// 
+.................... //// licensed users of the CCS C compiler.  No other use, reproduction //// 
+.................... //// or distribution is permitted without written permission.          //// 
+.................... //// Derivative programs created using this software in object code    //// 
+.................... //// form are not restricted in any way.                               //// 
+.................... /////////////////////////////////////////////////////////////////////////// 
+.................... #device PIC24FV16KM202 
+*
+0200:  CLR     32
+0202:  MOV     #20C,W3
+0204:  ADD     W3,W0,W0
+0206:  TBLRDL.B[W0],W0L
+0208:  CLR.B   1
+020A:  RETURN  
+020C:  DATA    0A,0D,00
+020E:  DATA    49,6E,00
+0210:  DATA    69,74,00
+0212:  DATA    2E,2E,00
+0214:  DATA    2E,00,00
+0216:  CLR     32
+0218:  MOV     #222,W3
+021A:  ADD     W3,W0,W0
+021C:  TBLRDL.B[W0],W0L
+021E:  CLR.B   1
+0220:  RETURN  
+0222:  DATA    0A,0D,00
+0224:  DATA    52,65,00
+0226:  DATA    61,64,00
+0228:  DATA    20,6F,00
+022A:  DATA    72,20,00
+022C:  DATA    57,72,00
+022E:  DATA    69,74,00
+0230:  DATA    65,3A,00
+0232:  DATA    20,00,00
+0234:  CLR     32
+0236:  MOV     #240,W3
+0238:  ADD     W3,W0,W0
+023A:  TBLRDL.B[W0],W0L
+023C:  CLR.B   1
+023E:  RETURN  
+0240:  DATA    0A,0D,00
+0242:  DATA    41,64,00
+0244:  DATA    64,72,00
+0246:  DATA    65,73,00
+0248:  DATA    73,20,00
+024A:  DATA    4C,6F,00
+024C:  DATA    63,61,00
+024E:  DATA    74,69,00
+0250:  DATA    6F,6E,00
+0252:  DATA    3A,20,00
+0254:  DATA    00,00,00
+0256:  CLR     32
+0258:  MOV     #262,W3
+025A:  ADD     W3,W0,W0
+025C:  TBLRDL.B[W0],W0L
+025E:  CLR.B   1
+0260:  RETURN  
+0262:  DATA    0A,0D,00
+0264:  DATA    41,64,00
+0266:  DATA    64,72,00
+0268:  DATA    65,73,00
+026A:  DATA    73,20,00
+026C:  DATA    6C,6F,00
+026E:  DATA    63,61,00
+0270:  DATA    74,69,00
+0272:  DATA    6F,6E,00
+0274:  DATA    3A,20,00
+0276:  DATA    25,58,00
+0278:  DATA    00,00,00
+027A:  CLR     32
+027C:  MOV     #286,W3
+027E:  ADD     W3,W0,W0
+0280:  TBLRDL.B[W0],W0L
+0282:  CLR.B   1
+0284:  RETURN  
+0286:  DATA    20,2D,00
+0288:  DATA    2D,20,00
+028A:  DATA    44,61,00
+028C:  DATA    74,61,00
+028E:  DATA    20,76,00
+0290:  DATA    61,6C,00
+0292:  DATA    75,65,00
+0294:  DATA    3A,20,00
+0296:  DATA    25,58,00
+0298:  DATA    0D,0A,00
+029A:  DATA    00,00,00
+029C:  CLR     32
+029E:  MOV     #2A8,W3
+02A0:  ADD     W3,W0,W0
+02A2:  TBLRDL.B[W0],W0L
+02A4:  CLR.B   1
+02A6:  RETURN  
+02A8:  DATA    0D,0A,00
+02AA:  DATA    41,64,00
+02AC:  DATA    64,72,00
+02AE:  DATA    65,73,00
+02B0:  DATA    73,20,00
+02B2:  DATA    6C,6F,00
+02B4:  DATA    63,61,00
+02B6:  DATA    74,69,00
+02B8:  DATA    6F,6E,00
+02BA:  DATA    3A,25,00
+02BC:  DATA    58,00,00
+02BE:  CLR     32
+02C0:  MOV     #2CA,W3
+02C2:  ADD     W3,W0,W0
+02C4:  TBLRDL.B[W0],W0L
+02C6:  CLR.B   1
+02C8:  RETURN  
+02CA:  DATA    20,2D,00
+02CC:  DATA    2D,20,00
+02CE:  DATA    4E,65,00
+02D0:  DATA    77,20,00
+02D2:  DATA    64,61,00
+02D4:  DATA    74,61,00
+02D6:  DATA    20,76,00
+02D8:  DATA    61,6C,00
+02DA:  DATA    75,65,00
+02DC:  DATA    3A,20,00
+02DE:  DATA    00,00,00
+02E0:  CLR     32
+02E2:  MOV     #2EC,W3
+02E4:  ADD     W3,W0,W0
+02E6:  TBLRDL.B[W0],W0L
+02E8:  CLR.B   1
+02EA:  RETURN  
+02EC:  DATA    20,2D,00
+02EE:  DATA    2D,20,00
+02F0:  DATA    4E,65,00
+02F2:  DATA    77,20,00
+02F4:  DATA    76,61,00
+02F6:  DATA    6C,75,00
+02F8:  DATA    65,3A,00
+02FA:  DATA    20,00,00
+*
+03AC:  MOV     W0,W3
+03AE:  SWAP    W1
+03B0:  MOV.B   #5,W4L
+03B2:  DEC.B   0003
+03B4:  DEC.B   0008
+03B6:  BRA     Z,3DE
+03B8:  MOV     W3,W0
+03BA:  SL      W3,#4,W3
+03BC:  LSR     W0,#C,W0
+03BE:  AND     #F,W0
+03C0:  BRA     NZ,3CA
+03C2:  CP.B    W4L,#1
+03C4:  BRA     Z,3CA
+03C6:  BTSS.B  3.7
+03C8:  BRA     3B2
+03CA:  ADD     #30,W0
+03CC:  MOV     #3A,W2
+03CE:  CP      W0,W2
+03D0:  BRA     NC,3D4
+03D2:  ADD.B   2,W0L
+03D4:  BTSS.B  233.0
+03D6:  BRA     3D4
+03D8:  MOV     W0,234
+03DA:  BSET.B  3.7
+03DC:  BRA     3B2
+03DE:  RETURN  
+....................  
+.................... #list 
+....................  
+....................  
+.................... #FUSES FRC_PLL 
+....................  
+.................... #use delay(clock = 32MHZ, internal = 8MHZ) 
+.................... #USE RS232(UART2, BAUD = 115200, PARITY = N, BITS = 8, STOP = 1, TIMEOUT =500)) 
+*
+0302:  MOV     W5,[W15++]
+0304:  MOV     #4B00,W5
+0306:  REPEAT  #19E
+0308:  NOP     
+030A:  DEC     W5,W5
+030C:  BRA     NZ,314
+030E:  CLR     800
+0310:  MOV     #0,W0
+0312:  BRA     320
+0314:  BTSS.B  232.0
+0316:  BRA     306
+0318:  PUSH    232
+031A:  POP     800
+031C:  MOV     236,W0
+031E:  BCLR.B  232.1
+0320:  MOV     [--W15],W5
+0322:  RETURN  
+....................  
+.................... #define EEPROM_SDA PIN_B2 
+.................... #define EEPROM_SCL PIN_B3 
+.................... #define EEPROM_ADDRESS int16 
+.................... #use i2c(MASTER, I2C2, SLOW, FORCE_HW) 
+*
+03E0:  MOV     #FFFF,W0
+03E2:  BTSS.B  218.3
+03E4:  BRA     3F0
+03E6:  BTSC.B  218.2
+03E8:  BRA     3E6
+03EA:  MOV     W1,210
+03EC:  BTSC.B  218.2
+03EE:  BRA     3EC
+03F0:  MOV     #0,W0
+03F2:  BTSC.B  214.6
+03F4:  INC     W0,W0
+03F6:  RETURN  
+*
+042A:  MOV     #FFFF,W0
+042C:  BTSS.B  218.3
+042E:  BRA     452
+0430:  MOV     214,W2
+0432:  AND     W2,#1F,W2
+0434:  BRA     NZ,430
+0436:  BSET.B  214.3
+0438:  BTSC    W1.0
+043A:  BCLR.B  214.5
+043C:  BTSS    W1.0
+043E:  BSET.B  214.5
+0440:  MOV     214,W2
+0442:  AND     W2,#1F,W2
+0444:  BRA     NZ,440
+0446:  BSET.B  214.4
+0448:  BTSS.B  218.0
+044A:  BRA     448
+044C:  MOV     210,W0
+044E:  BTSC.B  212.6
+0450:  BCLR.B  212.6
+0452:  RETURN  
+.................... //Ascii values are displayed and converted to decimal 
+.................... BYTE gethex1(){ 
+*
+0324:  MOV     W5,[W15++]
+0326:  CLR.B   80E
+....................  
+....................    char digit=0;              //variable for the value 
+....................   do{ 
+....................        if(kbhit()){ 
+0328:  BTSS.B  232.0
+032A:  BRA     33C
+....................          digit = getc();     //ascii value pushed key from keyboard 
+032C:  CALL    302
+0330:  MOV.B   W0L,80E
+....................          putc(digit);        //display GUI 
+0332:  MOV.B   80E,W0L
+0334:  BTSS.B  233.0
+0336:  BRA     334
+0338:  MOV.B   W0L,234
+033A:  CLR.B   235
+....................        } 
+....................     delay_ms(1);              // delay by 1 ms 
+033C:  REPEAT  #3E7E
+033E:  NOP     
+....................     } while(digit == 0); 
+0340:  MOV.B   80E,W0L
+0342:  SE      W0,W0
+0344:  CP0     W0
+0346:  BRA     Z,328
+....................   //covert ascii to decimal for values less than 10 
+....................   if(digit<='9')  
+0348:  MOV     80E,W4
+034A:  MOV     #39,W3
+034C:  CP.B    W3L,W4L
+034E:  BRA     LT,35C
+....................      return(digit-'0'); 
+0350:  MOV     80E,W4
+0352:  SUB.B   #30,W4L
+0354:  MOV.B   W4L,W0L
+0356:  MOV.B   W0L,0
+0358:  BRA     37C
+035A:  BRA     37C
+....................  //covert ascii to decimal for values greater than 10 
+....................  else 
+....................      return((toupper(digit)-'A')+10); 
+035C:  MOV     80E,W4
+035E:  MOV     #61,W3
+0360:  CP.B    W3L,W4L
+0362:  BRA     GTU,372
+0364:  MOV     80E,W4
+0366:  MOV     #7A,W3
+0368:  CP.B    W3L,W4L
+036A:  BRA     NC,372
+036C:  MOV.B   80E,W0L
+036E:  AND.B   #DF,W0L
+0370:  BRA     374
+0372:  MOV.B   80E,W0L
+0374:  SUB.B   #41,W0L
+0376:  ZE      W0,W0
+0378:  ADD     W0,#A,W0
+037A:  BRA     37C
+037C:  MOV     [--W15],W5
+037E:  RETURN  
+....................   } 
+....................                       
+.................... // Process one byte of data                   
+.................... BYTE gethex() { 
+0380:  MOV     W5,[W15++]
+....................     unsigned int8 lo,hi; 
+....................      hi = gethex1();          //the upper half of the byte 
+0382:  CALL    324
+0386:  MOV.B   W0L,80D
+....................      lo = gethex1();          //the lower half of the byte 
+0388:  CALL    324
+038C:  MOV.B   W0L,80C
+....................   
+....................  if(lo==0xdd) 
+038E:  MOV     80C,W4
+0390:  XOR.B   #DD,W4L
+0392:  BRA     NZ,39A
+....................           return(hi);         //return upper half 
+0394:  MOV.B   80D,W0L
+0396:  BRA     3A8
+0398:  BRA     3A8
+....................  else 
+....................       return( hi*16 + lo );   //return the whole byte 
+039A:  MOV.B   80D,W0L
+039C:  CLR.B   1
+039E:  SL      W0,#4,W5
+03A0:  MOV     80C,W4
+03A2:  CLR.B   9
+03A4:  ADD     W5,W4,W0
+03A6:  BRA     3A8
+03A8:  MOV     [--W15],W5
+03AA:  RETURN  
+....................  
+.................... } 
+....................  
+.................... //Set Pin SDA and SCL to the input mode 
+.................... void init_ext_eeprom() { 
+....................  output_float(EEPROM_SCL);  
+*
+02FC:  BSET.B  2C8.3
+....................  output_float(EEPROM_SDA); 
+02FE:  BSET.B  2C8.2
+0300:  RETURN  
+.................... } 
+....................  
+.................... //Start, ready, and stop the device 
+.................... BOOLEAN ext_eeprom_ready() { 
+....................  int1 ack; 
+....................  i2c_start(); // If the write command is acknowledged, 
+*
+03F8:  BTSS.B  218.3
+03FA:  BRA     404
+03FC:  BSET.B  214.1
+03FE:  BTSC.B  214.1
+0400:  BRA     3FE
+0402:  BRA     40A
+0404:  BSET.B  214.0
+0406:  BTSC.B  214.0
+0408:  BRA     406
+....................  ack = i2c_write(0xa0); // the device is ready. 
+040A:  MOV.B   #A0,W1L
+040C:  CALL    3E0
+0410:  BCLR.B  812.0
+0412:  BTSC.B  0.0
+0414:  BSET.B  812.0
+....................  i2c_stop();  
+0416:  MOV     #1F,W0
+0418:  AND     214,W0
+041A:  BRA     NZ,416
+041C:  BSET.B  214.2
+041E:  BTSC.B  214.2
+0420:  BRA     41E
+....................  
+....................  return !ack; 
+0422:  CLR     W0
+0424:  BTSS.B  812.0
+0426:  INC     W0,W0
+0428:  RETURN  
+.................... } 
+.................... //Execute the write command 
+....................  void write_ext_eeprom(EEPROM_ADDRESS address, BYTE data) { 
+*
+04CC:  MOV     W5,[W15++]
+....................      while(!ext_eeprom_ready()); 
+04CE:  CALL    3F8
+04D2:  CP0.B   W0L
+04D4:  BRA     Z,4CE
+....................               
+....................              i2c_start();                          //the command is acknowledge 
+04D6:  BTSS.B  218.3
+04D8:  BRA     4E2
+04DA:  BSET.B  214.1
+04DC:  BTSC.B  214.1
+04DE:  BRA     4DC
+04E0:  BRA     4E8
+04E2:  BSET.B  214.0
+04E4:  BTSC.B  214.0
+04E6:  BRA     4E4
+....................              i2c_write(0xa0);                      //send the control byte last bit is zero so it is a write operation 
+04E8:  MOV.B   #A0,W1L
+04EA:  CALL    3E0
+....................              i2c_write((BYTE)(address>>8) & 0x7F); //send the Address High Byte 
+04EE:  CLR.B   1
+04F0:  MOV.B   80D,W0L
+04F2:  CLR.B   1
+04F4:  MOV.B   W0L,W5L
+04F6:  AND     #7F,W5
+04F8:  MOV.B   W5L,W1L
+04FA:  CALL    3E0
+....................              i2c_write((BYTE)(address) & 0xFF);    //send the Address Low Byte 
+04FE:  MOV.B   80C,W0L
+0500:  CLR.B   1
+0502:  MOV.B   W0L,W5L
+0504:  AND     #FF,W5
+0506:  MOV.B   W5L,W1L
+0508:  CALL    3E0
+....................              i2c_write(data);                      //write the data word to the addressed memory location. 
+050C:  MOV.B   80E,W0L
+050E:  MOV.B   W0L,2
+0510:  CALL    3E0
+....................              i2c_stop();                           //send the stop bit 
+0514:  MOV     #1F,W0
+0516:  AND     214,W0
+0518:  BRA     NZ,514
+051A:  BSET.B  214.2
+051C:  BTSC.B  214.2
+051E:  BRA     51C
+0520:  MOV     [--W15],W5
+0522:  RETURN  
+....................           } 
+.................... //Execute the read command 
+.................... BYTE read_ext_eeprom(EEPROM_ADDRESS address) { 
+*
+0454:  MOV     W5,[W15++]
+....................     BYTE data; 
+....................  
+....................  while(!ext_eeprom_ready()); 
+0456:  CALL    3F8
+045A:  CP0.B   W0L
+045C:  BRA     Z,456
+....................          
+....................         i2c_start();                               //the command is acknowledge 
+045E:  BTSS.B  218.3
+0460:  BRA     46A
+0462:  BSET.B  214.1
+0464:  BTSC.B  214.1
+0466:  BRA     464
+0468:  BRA     470
+046A:  BSET.B  214.0
+046C:  BTSC.B  214.0
+046E:  BRA     46C
+....................         i2c_write(0xa0);                           //send the control byte 
+0470:  MOV.B   #A0,W1L
+0472:  CALL    3E0
+....................         i2c_write((BYTE)(address>>8) & 0x7F);      //send the Address High Byte 
+0476:  CLR.B   1
+0478:  MOV.B   80D,W0L
+047A:  CLR.B   1
+047C:  MOV.B   W0L,W5L
+047E:  AND     #7F,W5
+0480:  MOV.B   W5L,W1L
+0482:  CALL    3E0
+....................         i2c_write((BYTE)(address) & 0xFF);         //send the Address Low Byte 
+0486:  MOV.B   80C,W0L
+0488:  CLR.B   1
+048A:  MOV.B   W0L,W5L
+048C:  AND     #FF,W5
+048E:  MOV.B   W5L,W1L
+0490:  CALL    3E0
+....................         i2c_start();                               //send start bit 
+0494:  BTSS.B  218.3
+0496:  BRA     4A0
+0498:  BSET.B  214.1
+049A:  BTSC.B  214.1
+049C:  BRA     49A
+049E:  BRA     4A6
+04A0:  BSET.B  214.0
+04A2:  BTSC.B  214.0
+04A4:  BRA     4A2
+....................         i2c_write((0xa0)|1);                       //send control byte with last bit being 1 (for read operation) 
+04A6:  MOV.B   #A1,W1L
+04A8:  CALL    3E0
+....................         data=i2c_read(0);                          //obtain the data from that location, no acknowledge 
+04AC:  MOV     #0,W1
+04AE:  MOV     W1,[W15++]
+04B0:  MOV     [--W15],W1
+04B2:  CALL    42A
+04B6:  MOV.B   W0L,80E
+....................         i2c_stop();                                //send stop bit 
+04B8:  MOV     #1F,W0
+04BA:  AND     214,W0
+04BC:  BRA     NZ,4B8
+04BE:  BSET.B  214.2
+04C0:  BTSC.B  214.2
+04C2:  BRA     4C0
+....................   
+....................  return(data++);                                   //return the data 
+04C4:  MOV.B   80E,W0L
+04C6:  INC.B   080E
+04C8:  MOV     [--W15],W5
+04CA:  RETURN  
+....................               } 
+....................  
+.................... void main() 
+*
+0524:  MOV     #F80,W15
+0526:  MOV     #FFF,W0
+0528:  MOV     W0,20
+052A:  NOP     
+052C:  BSET.B  81.7
+052E:  CLR     744
+0530:  CLR     800
+0532:  MOV     #8000,W4
+0534:  MOV     W4,230
+0536:  MOV     #400,W4
+0538:  MOV     W4,232
+053A:  BSET.B  230.3
+053C:  MOV     #22,W4
+053E:  MOV     W4,238
+0540:  BSET.B  2C8.2
+0542:  BSET.B  2C8.3
+0544:  BCLR.B  216.0
+0546:  BCLR.B  216.1
+0548:  BCLR.B  216.3
+054A:  BCLR.B  218.6
+054C:  BSET.B  218.7
+054E:  MOV.B   #9F,W0L
+0550:  MOV.B   W0L,21A
+0552:  MOV.B   #28,W0L
+0554:  MOV.B   W0L,212
+0556:  CLR     4E0
+0558:  CLR     4E2
+055A:  CLR     804
+.................... { 
+....................   
+....................    BYTE value, cmd;                             //value:stores the data cmd: stores the command 
+....................    int block_10Data = 0;                        //flag used to idendify the 10 block data read/write 
+....................    EEPROM_ADDRESS address;                      //Address:stores the location in memory 
+....................    printf("\n\rInit...");                       //display in the GUI 
+055C:  MOV     #0,W1
+055E:  MOV     W1,W0
+0560:  CLR.B   1
+0562:  CALL    200
+0566:  INC     W1,W1
+0568:  BTSS.B  233.0
+056A:  BRA     568
+056C:  MOV     W0,234
+056E:  MOV     #8,W0
+0570:  CPSGT   W1,W0
+0572:  BRA     55E
+....................    init_ext_eeprom();                           //Initiate 
+0574:  CALL    2FC
+....................  
+....................   while(true){ 
+....................         do{ 
+....................            if(kbhit()){ 
+0578:  BTSS.B  232.0
+057A:  BRA     5D4
+....................            cmd = getc();                        //get character from keyboard 
+057C:  CALL    302
+0580:  MOV.B   W0L,803
+....................            cmd = toupper(cmd);                  //convert it uppercase 
+0582:  MOV     802,W4
+0584:  LSR     W4,#8,W4
+0586:  MOV     #61,W3
+0588:  CP.B    W3L,W4L
+058A:  BRA     GTU,59C
+058C:  MOV     802,W4
+058E:  LSR     W4,#8,W4
+0590:  MOV     #7A,W3
+0592:  CP.B    W3L,W4L
+0594:  BRA     NC,59C
+0596:  MOV.B   803,W0L
+0598:  AND.B   #DF,W0L
+059A:  BRA     59E
+059C:  MOV.B   803,W0L
+059E:  MOV.B   W0L,803
+....................            putc(cmd);                           //display in the GUI 
+05A0:  MOV.B   803,W0L
+05A2:  BTSS.B  233.0
+05A4:  BRA     5A2
+05A6:  MOV.B   W0L,234
+05A8:  CLR.B   235
+....................               if(( cmd!='R') && (cmd!='W'))     //If R nor W entered  
+05AA:  MOV     802,W4
+05AC:  LSR     W4,#8,W4
+05AE:  XOR.B   #52,W4L
+05B0:  BRA     Z,5D2
+05B2:  MOV     802,W4
+05B4:  LSR     W4,#8,W4
+05B6:  XOR.B   #57,W4L
+05B8:  BRA     Z,5D2
+....................               printf("\n\rRead or Write: ");    //display in the GUI 
+05BA:  MOV     #0,W1
+05BC:  MOV     W1,W0
+05BE:  CLR.B   1
+05C0:  CALL    216
+05C4:  INC     W1,W1
+05C6:  BTSS.B  233.0
+05C8:  BRA     5C6
+05CA:  MOV     W0,234
+05CC:  MOV     #10,W0
+05CE:  CPSGT   W1,W0
+05D0:  BRA     5BC
+....................           } 
+05D2:  BRA     5E0
+....................           // if the cmd is "C" then the 10 data block was clicked 
+....................           else if(cmd == 'C'){ 
+05D4:  MOV     802,W4
+05D6:  LSR     W4,#8,W4
+05D8:  XOR.B   #43,W4L
+05DA:  BRA     NZ,5E0
+....................             block_10Data = 1;                   //flag should be high 
+05DC:  MOV     #1,W4
+05DE:  MOV     W4,804
+....................           } 
+....................           delay_ms(1); 
+05E0:  REPEAT  #3E7E
+05E2:  NOP     
+....................         }while((cmd!= 'R')&&(cmd!='W'));       //will run until R or W is pressed 
+05E4:  MOV     802,W4
+05E6:  LSR     W4,#8,W4
+05E8:  XOR.B   #52,W4L
+05EA:  BRA     Z,5F4
+05EC:  MOV     802,W4
+05EE:  LSR     W4,#8,W4
+05F0:  XOR.B   #57,W4L
+05F2:  BRA     NZ,578
+....................          
+....................        printf("\n\rAddress Location: ");       //Display on the GUI 
+05F4:  MOV     #0,W1
+05F6:  MOV     W1,W0
+05F8:  CLR.B   1
+05FA:  CALL    234
+05FE:  INC     W1,W1
+0600:  BTSS.B  233.0
+0602:  BRA     600
+0604:  MOV     W0,234
+0606:  MOV     #13,W0
+0608:  CPSGT   W1,W0
+060A:  BRA     5F6
+....................        address = gethex();                     //input the address high byte 
+060C:  CALL    380
+0610:  MOV.B   W0L,806
+0612:  CLR.B   807
+....................        address = (address << 8);               //shift it to the right by one byte  
+0614:  MOV.B   806,W0L
+0616:  MOV.B   W0L,807
+0618:  CLR.B   806
+....................        address += gethex();                    //input the address low byte 
+061A:  CALL    380
+061E:  MOV.B   W0L,W5L
+0620:  ZE      W5,W5
+0622:  MOV     W5,W0
+0624:  ADD     806
+....................        
+....................       //When R is pressed as a command 
+....................       if(cmd=='R'){ 
+0626:  MOV     802,W4
+0628:  LSR     W4,#8,W4
+062A:  XOR.B   #52,W4L
+062C:  BRA     NZ,6F2
+....................          //10 data block flag high 
+....................          if(block_10Data== 1){ 
+062E:  MOV     804,W4
+0630:  CP      W4,#1
+0632:  BRA     NZ,6B6
+....................              printf("\r\n"); 
+0634:  BTSS.B  233.0
+0636:  BRA     634
+0638:  MOV     #D,W4
+063A:  MOV     W4,234
+063C:  BTSS.B  233.0
+063E:  BRA     63C
+0640:  MOV     #A,W4
+0642:  MOV     W4,234
+....................             // Display 10 address with their data values  
+....................             for(int i = 0; i <= 9; i++){ 
+0644:  CLR     808
+0646:  MOV     808,W4
+0648:  CP      W4,#9
+064A:  BRA     GT,6B2
+....................                printf("\n\rAddress location: %X",address); 
+064C:  MOV     #0,W1
+064E:  MOV     W1,W0
+0650:  CLR.B   1
+0652:  CALL    256
+0656:  INC     W1,W1
+0658:  BTSS.B  233.0
+065A:  BRA     658
+065C:  MOV     W0,234
+065E:  MOV     #13,W0
+0660:  CPSGT   W1,W0
+0662:  BRA     64E
+0664:  MOV     806,W0
+0666:  MOV     #704,W1
+0668:  CALL    3AC
+....................                printf(" -- Data value: %X\r\n",read_ext_eeprom(address)); 
+066C:  PUSH    806
+066E:  POP     80C
+0670:  CALL    454
+0674:  MOV.B   W0L,W5L
+0676:  MOV     #0,W1
+0678:  MOV     W1,W0
+067A:  CLR.B   1
+067C:  CALL    27A
+0680:  INC     W1,W1
+0682:  BTSS.B  233.0
+0684:  BRA     682
+0686:  MOV     W0,234
+0688:  MOV     #F,W0
+068A:  CPSGT   W1,W0
+068C:  BRA     678
+068E:  MOV.B   W5L,W0L
+0690:  CLR.B   1
+0692:  MOV     #704,W1
+0694:  CALL    3AC
+0698:  BTSS.B  233.0
+069A:  BRA     698
+069C:  MOV     #D,W4
+069E:  MOV     W4,234
+06A0:  BTSS.B  233.0
+06A2:  BRA     6A0
+06A4:  MOV     #A,W4
+06A6:  MOV     W4,234
+....................                address=address+0001;            //Increment the address location by 1 
+06A8:  MOV     806,W4
+06AA:  ADD     W4,#1,W0
+06AC:  MOV     W0,806
+06AE:  INC     0808
+06B0:  BRA     646
+....................             } 
+....................             block_10Data = 0;                   //reset the 10 data block flag 
+06B2:  CLR     804
+....................          } 
+06B4:  BRA     6F2
+....................          //10 data block flag low - individual read command 
+....................          else 
+....................          printf(" -- Data value: %X\r\n",read_ext_eeprom(address));//display the data value at that address 
+06B6:  PUSH    806
+06B8:  POP     80C
+06BA:  CALL    454
+06BE:  MOV.B   W0L,W5L
+06C0:  MOV     #0,W1
+06C2:  MOV     W1,W0
+06C4:  CLR.B   1
+06C6:  CALL    27A
+06CA:  INC     W1,W1
+06CC:  BTSS.B  233.0
+06CE:  BRA     6CC
+06D0:  MOV     W0,234
+06D2:  MOV     #F,W0
+06D4:  CPSGT   W1,W0
+06D6:  BRA     6C2
+06D8:  MOV.B   W5L,W0L
+06DA:  CLR.B   1
+06DC:  MOV     #704,W1
+06DE:  CALL    3AC
+06E2:  BTSS.B  233.0
+06E4:  BRA     6E2
+06E6:  MOV     #D,W4
+06E8:  MOV     W4,234
+06EA:  BTSS.B  233.0
+06EC:  BRA     6EA
+06EE:  MOV     #A,W4
+06F0:  MOV     W4,234
+....................        } 
+....................   
+....................         //When W is pressed as a command 
+....................         if(cmd=='W'){ 
+06F2:  MOV     802,W4
+06F4:  LSR     W4,#8,W4
+06F6:  XOR.B   #57,W4L
+06F8:  BRA     NZ,7AA
+....................             //10 data block flag high 
+....................             if(block_10Data == 1){ 
+06FA:  MOV     804,W4
+06FC:  CP      W4,#1
+06FE:  BRA     NZ,770
+....................                // Display 10 address with a new value 
+....................                for(int i = 0; i <= 9; i++){ 
+0700:  CLR     80A
+0702:  MOV     80A,W4
+0704:  CP      W4,#9
+0706:  BRA     GT,76C
+....................                printf("\r\nAddress location:%X",address);   
+0708:  MOV     #0,W1
+070A:  MOV     W1,W0
+070C:  CLR.B   1
+070E:  CALL    29C
+0712:  INC     W1,W1
+0714:  BTSS.B  233.0
+0716:  BRA     714
+0718:  MOV     W0,234
+071A:  MOV     #12,W0
+071C:  CPSGT   W1,W0
+071E:  BRA     70A
+0720:  MOV     806,W0
+0722:  MOV     #704,W1
+0724:  CALL    3AC
+....................                printf(" -- New data value: ");  //Display on GUI 
+0728:  MOV     #0,W1
+072A:  MOV     W1,W0
+072C:  CLR.B   1
+072E:  CALL    2BE
+0732:  INC     W1,W1
+0734:  BTSS.B  233.0
+0736:  BRA     734
+0738:  MOV     W0,234
+073A:  MOV     #13,W0
+073C:  CPSGT   W1,W0
+073E:  BRA     72A
+....................                value = gethex();                //input new value 
+0740:  CALL    380
+0744:  MOV.B   W0L,802
+....................                write_ext_eeprom(address, value);//write new value to the memory chip 
+0746:  MOV.B   802,W0L
+0748:  MOV.B   W0L,80E
+074A:  PUSH    806
+074C:  POP     80C
+074E:  CALL    4CC
+....................                printf("\r\n");                  //Start from the beginning of the next line 
+0752:  BTSS.B  233.0
+0754:  BRA     752
+0756:  MOV     #D,W4
+0758:  MOV     W4,234
+075A:  BTSS.B  233.0
+075C:  BRA     75A
+075E:  MOV     #A,W4
+0760:  MOV     W4,234
+....................                address = address + 0001;        //Increment the address location by 1. 
+0762:  MOV     806,W4
+0764:  ADD     W4,#1,W0
+0766:  MOV     W0,806
+0768:  INC     080A
+076A:  BRA     702
+....................             } 
+....................                block_10Data = 0;                //reset the 10 data block flag 
+076C:  CLR     804
+....................         } 
+076E:  BRA     7AA
+....................             //10 data block flag low - individual write command 
+....................             else{ 
+....................                printf(" -- New value: ");       //display on GUI 
+0770:  MOV     #0,W1
+0772:  MOV     W1,W0
+0774:  CLR.B   1
+0776:  CALL    2E0
+077A:  INC     W1,W1
+077C:  BTSS.B  233.0
+077E:  BRA     77C
+0780:  MOV     W0,234
+0782:  MOV     #E,W0
+0784:  CPSGT   W1,W0
+0786:  BRA     772
+....................                value = gethex();                //input new value 
+0788:  CALL    380
+078C:  MOV.B   W0L,802
+....................                write_ext_eeprom(address, value);//write new value to the memory chip 
+078E:  MOV.B   802,W0L
+0790:  MOV.B   W0L,80E
+0792:  PUSH    806
+0794:  POP     80C
+0796:  CALL    4CC
+....................                printf("\r\n");                  //Start from the beginning of the next line 
+079A:  BTSS.B  233.0
+079C:  BRA     79A
+079E:  MOV     #D,W4
+07A0:  MOV     W4,234
+07A2:  BTSS.B  233.0
+07A4:  BRA     7A2
+07A6:  MOV     #A,W4
+07A8:  MOV     W4,234
+....................              } 
+....................         } 
+....................         cmd = 0;                                //reset the command 
+07AA:  CLR.B   803
+07AC:  BRA     578
+....................   } 
+.................... }  
+07AE:  PWRSAV  #0
+
+Configuration Fuses:
+   Word  1L: 000F   NOWRTB NOBSS
+          H: 0000  
+   Word  2L: 0000  
+          H: 0000  
+   Word  3L: 0003   NOWRT NOPROTECT
+          H: 0000  
+   Word  4L: 00E1   FRC_PLL SOSC_ANALOG LPRCHIGH IESO
+          H: 0000  
+   Word  5L: 00FB   NOPR OSCIO POSCFREQ_H SOSC_HIGH
+          H: 0000  
+   Word  6L: 005F   WPOSTS16 WDT128 WINDIS NOWDT
+          H: 0000  
+   Word  7L: 00FF   BROWNOUT PUT NOALTI2C1 BORV_LOW MCLR
+          H: 0000  
+   Word  8L: 0083   ICSP1 NODEBUG
+          H: 0000  

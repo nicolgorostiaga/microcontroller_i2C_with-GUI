@@ -1,0 +1,123 @@
+W0      @SCRATCH
+W0L     _RETURN_
+W0      @delay_us1.P1
+W0 -W1  @READ_ROM_MEMORY.P2
+W0 -W1  @DIV3232B.P3
+W0      @PRINTF_X_115200_5712_5713.P4
+W0      @delay_ms1.P5
+W1      @SCRATCH
+W1      @PRINTF_X_115200_5712_5713.P1
+W1      @WRITE_PACKED_MEMORY.P2
+W1L     @I2C_WRITEU_1.P3
+W1      @READ_PACKED_MEMORY.P4
+W1L     @I2C_READU_1.P5
+W2      @READ_ROM_MEMORY.P1
+W2      @WRITE_PACKED_MEMORY.P2
+W2 -W3  @DIV3232B.P3
+W2      @READ_PACKED_MEMORY.P4
+W3      @READ_PACKED_MEMORY.P1
+W3      @WRITE_PACKED_MEMORY.P2
+W3      @READ_ROM_MEMORY.P3
+122.6   LC1OUT
+12E.6   LC2OUT
+145.4   CCP_1_SSDG
+14C.4   CCP_1_ASEVT
+14C.5   CCP_1_TRCLR
+14C.6   CCP_1_TRSET
+169.4   CCP_2_SSDG
+170.4   CCP_2_ASEVT
+170.5   CCP_2_TRCLR
+170.6   CCP_2_TRSET
+18D.4   CCP_3_SSDG
+194.4   CCP_3_ASEVT
+194.5   CCP_3_TRCLR
+194.6   CCP_3_TRSET
+1B1.4   CCP_4_SSDG
+1B8.4   CCP_4_ASEVT
+1B8.5   CCP_4_TRCLR
+1B8.6   CCP_4_TRSET
+1D5.4   CCP_5_SSDG
+1DC.4   CCP_5_ASEVT
+1DC.5   CCP_5_TRCLR
+1DC.6   CCP_5_TRSET
+635.0   C1OUT
+635.1   C1ENV
+637.0   C2OUT
+637.1   C2ENV
+639.0   C3OUT
+639.1   C3ENV
+800-801 rs232_errors
+802     MAIN.value
+803     MAIN.cmd
+804-805 MAIN.block_10Data
+806-807 MAIN.address
+808-809 MAIN.i
+80A-80B MAIN.i
+80C-80D write_ext_eeprom.address
+80C-80D read_ext_eeprom.address
+80C     gethex.lo
+80D     gethex.hi
+80E     read_ext_eeprom.data
+80E     write_ext_eeprom.data
+80E     gethex1.digit
+812.0   ext_eeprom_ready.ack
+F80-FFF Stack
+
+ROM Allocation:
+000200  @const928.call
+000216  @const929.call
+000234  @const930.call
+000256  @const933.call
+00027A  @const937.call
+00029C  @const940.call
+0002BE  @const941.call
+0002E0  @const943.call
+0002FC  init_ext_eeprom
+000302  @GETCH_BIU_1
+000324  gethex1
+000380  gethex
+0003AC  @PRINTF_X_115200_5712_5713
+0003E0  @I2C_WRITEU_1
+0003F8  ext_eeprom_ready
+00042A  @I2C_READU_1
+000454  read_ext_eeprom
+0004CC  write_ext_eeprom
+000524  @cinit1
+000524  MAIN
+00055A  @cinit2
+
+Project Directory:
+    C:\Users\Admin\Desktop\ECE422_Lab7_2\
+
+Project Files:
+    main.c                                                  [26-Oct-19 16:09  CRC=C8C8CCE0]
+    ..\PICC\Devices\24FV16KM202.h                           [27-Jan-17 19:45  CRC=B204A216]
+
+Source signature=2CD2110C
+Program memory checksum=0000
+Program memory CRC=0000
+Hex file CRC=F983
+
+Units:
+    main (main)
+
+Compiler Settings:
+    Processor:      PIC24FV16KM202
+    Pointer Size:   16
+    ADC Range:      0-65535
+    Opt Level:      9
+    Short,Int,Long: SIGNED: 8,16,32
+    Float,Double:   32,64
+    Compile Mode:       CCS5
+
+Output Files:
+    XREF file:   main.xsym
+    Errors:      main.err
+    Ext Symbols: main.esym
+    INHX8:       main.hex
+    Symbols:     main.sym
+    List:        main.lst
+    Debug/COFF:  main.cof
+    Project:     main.ccspjt
+    Call Tree:   main.tre
+    Statistics:  main.STA
